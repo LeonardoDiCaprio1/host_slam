@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+	
+	<include file="$(find host_slam)/launch/kt001.launch"  />
+	
+	<node name="tele_key" pkg="host_slam" type="teleop_key.py" output="screen" />
+
+</launch>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 	<include file="$(find astra_camera)/launch/astra.launch"/>
-	<!-- <node name="img_compressed_show" pkg="host_slam" type="compressed_image_topic.py" output="screen"> -->
+	<node name="img_compressed_show" pkg="host_slam" type="compressed_image_topic.py" output="screen">
 	<node name="img_compressed_show" pkg="host_slam" type="img_cvbridge.py" output="screen">
 		<param name="camera_name" value="camera" />
 	</node>

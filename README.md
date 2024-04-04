@@ -1,6 +1,6 @@
 # 简介
 - 请结合listen_slam功能包操作
-- 功能包地址：https://github.com/LeonardoDiCaprio1/client_slam
+- 功能包地址：https://github.com/LeonardoDiCaprio1/listen_slam
 
 # 开发环境
 - Ubuntu 20.04
